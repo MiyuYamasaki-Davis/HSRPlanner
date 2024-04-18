@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/HSRPlanner",
+  //basePath: "/HSRPlanner",
   output: "export",
   reactStrictMode: true,
 }
