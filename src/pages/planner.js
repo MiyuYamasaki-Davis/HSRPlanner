@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import FullDropdown from '@/components/FullDropdown';
-import TextInput from '@/components/TextInput';
 
 const planner = () => {
     return (

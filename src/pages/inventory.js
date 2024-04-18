@@ -1,10 +1,9 @@
-import React from 'react'
+import InventoryCharts from '@/components/InventoryCharts'
+import React, { useState } from 'react'
 
 const inventory = () => {
     return (
-        <div>
-            Inventory
-        </div>
+        <InventoryCharts/>
     )
 }
 

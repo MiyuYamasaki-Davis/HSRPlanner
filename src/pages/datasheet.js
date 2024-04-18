@@ -21,6 +21,7 @@ import stag13 from "../../public/images/HSR/Item_Shape_Shifter's_Lightning_Staff
 import stag14 from "../../public/images/HSR/Item_Storm_Eye.png"
 import stag15 from "../../public/images/HSR/Item_Suppressing_Edict.png"
 import stag16 from "../../public/images/HSR/Item_Void_Cast_Iron.png"  
+import stag17 from "../../public/images/HSR/Item_Raging_Heart.png"
 import Image from 'next/image';
 
 const datasheet = () => {
@@ -52,7 +53,7 @@ const datasheet = () => {
                         </th>
                         <td className="border p-4">1</td>
                         <td className="border p-4">6</td>
-                        <td className="border p-4">15</td>
+                        <td className="border p-4">15</td> 
                         <td className="border p-4">25</td>
                         <td className="border p-4">45</td>
                         <td className="border p-4">86</td>
@@ -79,6 +80,7 @@ const datasheet = () => {
                             <Image src={stag14} alt="pBook" className='object-center w-16 h-auto'/>
                             <Image src={stag15} alt="pBook" className='object-center w-16 h-auto'/>
                             <Image src={stag16} alt="pBook" className='object-center w-16 h-auto'/>
+                            <Image src={stag17} alt="pBook" className='object-center w-16 h-auto'/>
                         </th>
                         <td className="border p-4 w-24">5 <span>&#9733;</span>: 0<br/> 4 <span>&#9733;</span>: 0</td>
                         <td className="border p-4 w-24">5 <span>&#9733;</span>: 0<br/> 4 <span>&#9733;</span>: 0</td>
